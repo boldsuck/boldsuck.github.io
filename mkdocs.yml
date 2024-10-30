@@ -72,7 +72,7 @@ nav:
     - Security tips: 'security.md'
     - Troubleshooting: 'troubleshooting.md'
     - Arbitration: 'arbitration.md'
-  - Trade recommendations: 'README.md'
+    - Trade recommendations: 'README.md'
     - Payment Methods: 'trade-recommendations/payment_methods/README.md'
       - ACH: 'trade-recommendations/payment_methods/ACH.md'
       - Amazon eGift card: 'trade-recommendations/payment_methods/Amazon_eGift_card.md'
