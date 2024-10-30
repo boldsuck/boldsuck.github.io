@@ -1,0 +1,120 @@
+site_name: Haveno-reto Documentation
+site_url: https://docs.haveno-reto.com
+copyright: Copyright &copy; 2024 Haveno, 2024 retoaccess1
+
+theme:
+  name: material
+  #custom_dir: overrides
+  logo: 'resources/img/haveno.svg'
+  favicon: 'resources/img/favicon.ico'
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: youtube
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+    - macros
+    - search
+
+markdown_extensions:
+  - admonition  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight: # Code blocks
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  version:
+    haveno: 1.0.12
+  social:
+    - icon: material/web
+      link: https://haveno-reto.com
+    - icon: fontawesome/brands/github
+      link: https://github.com//retoaccess1
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/haveno_reto
+    - icon: simple/matrix
+      link: https://simplex.chat/contact#/?v=2-4&smp=smp%3A%2F%2FSkIkI6EPd2D63F4xFKfHk7I1UGZVNn6k1QWZ5rcyr6w%3D%40smp9.simplex.im%2FMplYm7uxopKyUOrKqnWySpXQIGxoJWYB%23%2F%3Fv%3D1-2%26dh%3DMCowBQYDK2VuAyEAs8PcRwnf_-H30yXfwV0MSbka9I_xBeVNr4vKJNoReBw%253D%26srv%3Djssqzccmrcws6bhmn77vgmhfjmhwlyr3u7puw4erkyoosywgl67slqqd.onion&data=%7B%22type%22%3A%22group%22%2C%22groupLinkId%22%3A%22YT2t__GnjpZ1W2MjJAz6Sw%3D%3D%22%7D
+    - icon: material/chat
+      link: irc://irc.libera.chat/#haveno
+
+nav:
+  - Home: 'index.md'
+  - Haveno-reto:
+    - Get Started: 'get_started.md'
+    - Backup & Restoration: 'backup_and_restoration.md'
+    - UX Tips: 'UX_tips.md'
+    - Security tips: 'security.md'
+    - Troubleshooting: 'troubleshooting.md'
+    - Arbitration: 'arbitration.md'
+  - Trade recommendations: 'README.md'
+    - Payment Methods: 'trade-recommendations/payment_methods/README.md'
+      - ACH: 'trade-recommendations/payment_methods/ACH.md'
+      - Amazon eGift card: 'trade-recommendations/payment_methods/Amazon_eGift_card.md'
+      - Bizum: 'trade-recommendations/payment_methods/Bizum.md'
+      - Capitual: 'trade-recommendations/payment_methods/Capitual.md'
+      - Domestic Wire Transfer: 'trade-recommendations/payment_methods/Domestic_Wire_Transfer.md'
+      - F2F: 'trade-recommendations/payment_methods/F2F.md'
+      - Faster Payments: 'trade-recommendations/payment_methods/Faster_Payments.md'
+      - IMPS: 'trade-recommendations/payment_methods/IMPS.md'
+      - Interac e-transfer: 'trade-recommendations/payment_methods/interac_e-transfer.md'
+      - Monese: 'trade-recommendations/payment_methods/Monese.md'
+      - Moneta: 'trade-recommendations/payment_methods/Moneta.md'
+      - NEFT: 'trade-recommendations/payment_methods/NEFT.md'
+      - Nequi: 'trade-recommendations/payment_methods/Nequi.md'
+      - Paxum: 'trade-recommendations/payment_methods/Paxum.md'
+      - Pay By Mail: 'trade-recommendations/payment_methods/Pay_By_Mail.md'
+      - Paysera: 'trade-recommendations/payment_methods/Paysera.md'
+      - PayTM: 'trade-recommendations/payment_methods/PayTM.md'
+      - Pix: 'trade-recommendations/payment_methods/Pix.md'
+      - Revolut: 'trade-recommendations/payment_methods/Revolut.md'
+      - RTGS: 'trade-recommendations/payment_methods/RTGS.md'
+      - Satispay: 'trade-recommendations/payment_methods/Satispay.md'
+      - SEPA: 'trade-recommendations/payment_methods/SEPA.md'
+      - Strike: 'trade-recommendations/payment_methods/Strike.md'
+      - SWIFT: 'trade-recommendations/payment_methods/SWIFT.md'
+      - TransferWise: 'trade-recommendations/payment_methods/TransferWise.md'
+      - UBI: 'trade-recommendations/payment_methods/UBI.md'
+      - US Postal Money Order: 'trade-recommendations/payment_methods/US_Postal_Money_Order.md'
+      - Verse: 'trade-recommendations/payment_methods/Verse.md'
+#  - The Project:
+#    - Overview of Haveno: 'the-project/overview.md'
+#    - Trade Protocol: 'the-project/trade-protocol.md'
+#    - Conflict Resolution: 'the-project/conflict-resolution.md'
+#    - Roles:
+#      - Core Team: 'the-project/roles/core-team.md'
+#      - Arbitrators: 'the-project/roles/arbitrators.md'
+#      - Publishers: 'the-project/roles/publishers.md'
+#    - Assets and Payment Methods: 'the-project/assets.md'
+#  - Development:
+#    - Install and Run Haveno: 'development/installing.md'
+#    - User Interface: 'development/haveno-ui.md'
+#    - API: 'development/api.md'
+#    - Bounties: 'development/bounties.md'
+#    - Import Development Environment: 'development/importing.md'
+#    - Contributor Guidelines: 'development/contributor-guidelines.md'
