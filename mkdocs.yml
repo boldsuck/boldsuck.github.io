@@ -66,13 +66,15 @@ extra:
 nav:
   - Home: 'index.md'
   - Haveno-reto:
-    - Get Started: 'get_started.md'
-    - Backup & Restoration: 'backup_and_restoration.md'
-    - UX Tips: 'UX_tips.md'
-    - Security tips: 'security.md'
-    - Troubleshooting: 'troubleshooting.md'
-    - Arbitration: 'arbitration.md'
-    - Trade recommendations: 'README.md'
+    - Get Started: 'the-project/get_started.md'
+    - Backup & Restoration: 'the-project/backup_and_restoration.md'
+    - UX Tips: 'the-project/UX_tips.md'
+    - Security tips: 'the-project/security.md'
+    - Troubleshooting: 'the-project/troubleshooting.md'
+    - Arbitration: 'the-project/arbitration.md'
+    - Trade recommendations: 'the-project/README.md'
+  - Trade recommendations:
+  - Trade recommendations: 'trade-recommendations/README.md'
   - Payments:
     - Payment Methods: 'trade-recommendations/payment_methods/README.md'
     - ACH: 'trade-recommendations/payment_methods/ACH.md'
